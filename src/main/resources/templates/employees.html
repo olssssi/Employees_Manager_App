@@ -7,6 +7,12 @@
     <title>Index Page</title>
     <style type="text/css">
 
+<!--        input::-webkit-outer-spin-button,-->
+<!--        input::-webkit-inner-spin-button {-->
+<!--          -webkit-appearance: none;-->
+<!--          margin: 0;-->
+<!--        }-->
+
    		#employeecontainer{
          margin-top: 50px;
        }
@@ -76,13 +82,13 @@
                             <!--                            </div>-->
                             <div class="form-group">
                                 <div class="box">
-                                    <input type="number" class="form-control" name="salary" min="0" step="0.01" placeholder="Raise by...?">
+                                    <input type="number" class="form-control" name="salary" min="0" step="0.1" placeholder="Raise">
                                     <button type="submit" class="btn btn-success btn-sm text-white">Update</button>
                                 </div>
                             </div>
-<!--                            <div class="form-group">-->
+                            <!--                            <div class="form-group">-->
 
-<!--                            </div>-->
+                            <!--                            </div>-->
 
 
 
@@ -129,12 +135,29 @@
                             <input type="text" class="form-control" name="lastName" placeholder="Enter Last Name">
                         </div>
                         <div class="form-group">
-                            <label>Gender</label>
-                            <input type="text" class="form-control" name="gender" placeholder="Enter Gender">
+                            <label>Gender</label><br>
+                            <select name="gender">
+                                <option value="Female">Female</option>
+                                <option value="Male">Male</option>
+                                <option value="Other">Other</option>
+                            </select>
+<!--                            <input type="text" class="form-control" name="gender" placeholder="Enter Gender">-->
                         </div>
                         <div class="form-group">
-                            <label>Job</label>
-                            <input type="text" class="form-control" name="job" placeholder="Enter Job">
+                            <label>Job</label><br>
+                            <!--                            <input type="text" class="form-control" name="job" placeholder="Enter Job">-->
+                            <select name="job">
+                                <option value="Junior Java Developer">Junior Java Developer</option>
+                                <option value="Senior Java Developer">Senior Java Developer</option>
+                                <option value="Project Manager">Project Manager</option>
+                                <option value="HR Specialist">HR Specialist</option>
+                                <option value="Test Engineer">Test Engineer</option>
+                                <option value="Data Anylytyst">Data Anylyst</option>
+                                <option value="Marketing Specialist">Marketing Specialist</option>
+                                <option value="Secretary">Secretary</option>
+                                <option value="Manager">Manager</option>
+                                <option value="Boss">Boss</option>
+                            </select>
                         </div>
                         <div class="form-group">
                             <label>Salary</label>
