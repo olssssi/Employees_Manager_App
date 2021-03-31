@@ -17,6 +17,8 @@ This project is simple employees data manager
 
 ![Manager view](main.PNG)
 
+![Adding view](adding.PNG)
+
 
 ## Features
 * User Authentication - login and logout page created by Spring Security
