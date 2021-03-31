@@ -4,7 +4,7 @@
 * [General info](#General-info)
 * [Screenshots](#Screenshots)
 * [Features](#Features)
-* [Features in progress](#Features in progress)
+* [Features_in_progress](#Features in progress)
 * [Technologies](#Technologies)
 
 ## General info
