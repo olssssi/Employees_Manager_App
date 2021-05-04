@@ -1,14 +1,22 @@
 # Employees_Manager_App
 
 ## Table of contents
-* [General info](#General-info)
+* [General info](#General_info)
+* [Staring application](#Staring_application)
 * [Screenshots](#Screenshots)
 * [Features](#Features)
-* [Features_in_progress](#Features_in_progress)
+* [Features in progress](#Features_in_progress)
 * [Technologies](#Technologies)
 
 ## General info
 This project is simple employees data manager
+
+## Staring application
+* Run application
+* Get access to application on http://localhost:9597/
+* Log in to application by one of the users:
+
+![Users_credentials](users.PNG)
 
 ## Screenshots
 ![Login page](login.PNG)
@@ -27,7 +35,7 @@ This project is simple employees data manager
 * User-friendly interface created by HTML and a bit of CSS
 * Roles and User Permission given to different users
 
-### Features_in_progress
+### Features in progress
 * Storing users logins and passwords in external database
 * Executing roles and permissions - for example only boss can give a raise etc.
 * Blocking incorrect data inputs
